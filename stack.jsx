@@ -9,8 +9,6 @@ import devIcon from "../Images/dev.png";
 import tailIcon from "../Images/tail.svg";
 import githubIcon from "../Images/github.svg";
 
-
-
 const StackItem = ({ icon, title, description }) => (
   <div className="stack__item flex flex-col items-center p-4 border-2 border-gray-500 rounded-lg text-center" data-aos="flip-left" data-aos-duration="1000">
     <div className="stack__icon mb-2">{icon}</div>
@@ -27,13 +25,13 @@ const Stack = () => {
     { icon: <FaCss3Alt size={30} />, title: "CSS3", description: "Style Sheet Language" },
     { icon: <FaSass size={30} />, title: "Sass/SCSS", description: "CSS Preprocessor" },
     { icon: <FaBootstrap size={30} />, title: "Bootstrap", description: "CSS Framework" },
-    { icon: <Image src={tailIcon} alt="Tailwind CSS" width={30} />, title: "Tailwind CSS", description: "CSS Framework" },
+    { icon: <Image src={tailIcon} alt="Tailwind CSS Logo" width={30} />, title: "Tailwind CSS", description: "CSS Framework" },
     { icon: <SiJquery size={30} />, title: "jQuery", description: "JavaScript Library" },
     { icon: <FaJs size={30} />, title: "JavaScript", description: "Programming Language" },
     { icon: <FaReact size={30} />, title: "React", description: "JavaScript Library" },
     { icon: <SiNextdotjs size={30} />, title: "Next.js", description: "React Framework" },
     { icon: <FaWordpress size={30} />, title: "WordPress", description: "CMS" },
-    { icon: <Image src={githubIcon} size={30} />, title: "Git", description: "GitHub" },
+    { icon: <Image src={githubIcon} alt="GitHub Logo" width={30} />, title: "Git", description: "GitHub" },
     { icon: <FaFigma size={30} />, title: "Figma", description: "Figma UI/UX" },
   ];
 
@@ -46,7 +44,7 @@ const Stack = () => {
       <div className="stack__container container  mx-auto">
         <div className="stack__content flex flex-col items-center">
           <div className="stack__header w-full text-center mb-8 flex flex-col justify-center items-center">
-          <Image src={devIcon} width={40} height={40} alt="Booking Icon" />
+            <Image src={devIcon} width={40} height={40} alt="Developer Icon" />
             <h2 className="stack__title text-2xl font-semibold mb-2 mt-2">Tech Stack</h2>
             <p className="stack__subtitle text-gray-600">Some of the tools I use in my workflow</p>
           </div>
