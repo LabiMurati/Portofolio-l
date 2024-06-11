@@ -17,7 +17,7 @@ const Certification = () => {
           </div>
           <div className="certification-item__content py-5 px-5">
             <div className="certification-item__title">
-              <h5 className="certification-item__title-text mb-4 text-2xl font-bold text-center flex flex-col">
+              <h5 className="certification-item__title-text mb-3 text-2xl font-bold text-center flex flex-col">
                 {title}
                 <span className="text-sm text-center w-full color- text-gray-600 font-normal font-sans ">{award}</span>
               </h5>
